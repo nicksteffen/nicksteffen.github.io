@@ -23,7 +23,7 @@ section:target{
 }
 .navbar-nav .nav-link{
   padding-right:.5rem;
-  padding-left:.5rem; 
+  padding-left:.5rem;
 }
 .social-links{
   list-style-type:none;
@@ -39,7 +39,6 @@ section:target{
 .thumbnail-container {
   display:inline-block;
   flex-direction:row;
-  overflow:auto;
   white-space:nowrap;
 }
 .home-container {
