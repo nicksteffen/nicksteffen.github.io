@@ -44,3 +44,12 @@ section:target{
 .home-container {
     background-color:rgba(21, 0, 255, 0.52);
 }
+
+
+.about-section {
+    display: grid;
+    background-color:#D6B688;
+    background-size:cover;
+
+
+}
