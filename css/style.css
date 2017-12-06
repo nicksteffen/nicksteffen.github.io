@@ -50,6 +50,7 @@ section:target{
     display: grid;
     background-color:#D6B688;
     background-size:cover;
+    grid-template-columns:repeat(2,1fr);
 
 
 }
