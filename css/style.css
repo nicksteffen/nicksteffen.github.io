@@ -50,7 +50,16 @@ section:target{
     display: grid;
     background-color:#D6B688;
     background-size:cover;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(3,1fr);
 
 
+}
+
+.picture {
+    grid-column: 1/2;
+
+}
+
+.about-text {
+    grid-column:2/3;
 }
