@@ -15,6 +15,7 @@ section:target{
   height:100vh;
   justify-content:center;
   align-content:center;
+  overflow:-y: hidden;
 }
 .navbar-nav{
   flex-direction:row;
