@@ -57,10 +57,11 @@ section:target{
 
 .picture {
     grid-column: 1/2;
-background-image: url("https://nicksteffen.github.io/profile.jpg");
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
+    background-image: url("https://nicksteffen.github.io/profile.jpg");
+    background-size: contain;   
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100%;
 
 }
 
