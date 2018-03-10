@@ -57,9 +57,13 @@ section:target{
 
 .picture {
     grid-column: 1/2;
+    background-image:src="profile.jpg";
+    background-size:contain;
 
 }
 
 .about-text {
     grid-column:2/3;
 }
+
+about
