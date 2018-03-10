@@ -59,7 +59,7 @@ section:target{
 .picture {
     grid-column: 1/2;
     background-image: url("https://nicksteffen.github.io/profile.jpg");
-    background-size: contain;   
+    background-size: cover;   
     background-repeat: no-repeat;
     background-position: center;
     height:100%;
