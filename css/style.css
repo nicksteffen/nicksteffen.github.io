@@ -72,6 +72,9 @@ section:target{
     grid-column:2/3;
     color: white;
     opacity: .6;
+    max-width:80%;
+    margin-left:15%;
+    margin-right:15%
 }
 
 about
