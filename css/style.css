@@ -64,12 +64,14 @@ section:target{
     background-size: cover;   
     background-repeat: no-repeat;
     background-position: center;
-    height:100%;
+    height:90%;
 
 }
 
 .about-text {
     grid-column:2/3;
+    font: white;
+    opacity: 80%;
 }
 
 about
