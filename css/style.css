@@ -70,8 +70,8 @@ section:target{
 
 .about-text {
     grid-column:2/3;
-    font: white;
-    opacity: 80%;
+    color: white;
+    opacity: .6;
 }
 
 about
