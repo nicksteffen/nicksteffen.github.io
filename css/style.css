@@ -70,18 +70,32 @@ section:target{
 
 .about-text {
     grid-column:2/3;
-    color: white;
+    color: #DDDDDD;
     opacity: .6;
     max-width:80%;
     margin-left:15%;
     margin-right:15%
 }
 
+.skills {
+    background-color:#7894cc; 
+    color:#DDDDDD; 
+    flex-direction:column;
+    text-align:left
+}
+    
+
 .porfolio {
     height:180vh;
+    background-color: #324378;
+    color: #DDDDDD;
+    opacity: .6;
     
 }
 
 .contact {
+    background-color: #171f35;
+    color: #DDDDDD;
+    opacity: .6;
     height:20vh;
 }
