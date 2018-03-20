@@ -70,8 +70,7 @@ section:target{
 
 .about-text {
     grid-column:2/3;
-    color: #DDDDDD;
-    opacity: .6;
+    color: rgba(255,255,255, .8);
     max-width:80%;
     margin-left:15%;
     margin-right:15%
@@ -79,7 +78,7 @@ section:target{
 
 .skills {
     background-color:#7894cc; 
-    color:#DDDDDD; 
+    color: rgba(255,255,255, .8);
     flex-direction:column;
     text-align:left
 }
@@ -88,14 +87,13 @@ section:target{
 .portfolio {
     height:180vh;
     background-color: #324378;
-    color: #DDDDDD;
-    opacity: .6;
+    color: rgba(255,255,255, .8);
+   
     
 }
 
 .contact {
     background-color: #171f35;
-    color: #DDDDDD;
-    opacity: .6;
+    color: rgba(255,255,255, .8);
     height:20vh;
 }
