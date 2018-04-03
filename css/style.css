@@ -61,7 +61,7 @@ section:target{
 .picture {
     grid-column: 1/2;
     background-image: url("https://nicksteffen.github.io/profile.jpg");
-    background-size: cover;   
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height:85%;
@@ -77,23 +77,46 @@ section:target{
 }
 
 .skills {
-    background-color:#7894cc; 
+    background-color:#7894cc;
     color: rgba(255,255,255, .8);
     flex-direction:column;
     text-align:left
 }
-    
+
 
 .portfolio {
     height:180vh;
     background-color: #324378;
     color: rgba(255,255,255, .8);
-   
-    
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
 }
 
 .contact {
     background-color: #171f35;
     color: rgba(255,255,255, .8);
     height:20vh;
+}
+
+
+.project-one {
+    grid-column:1/2;
+
+}
+
+.image-one {
+    grid-column:2/3;
+    background-image:url("https://nicksteffen.github.io/project-screenshots/home-page-app.png");
+
+}
+
+.project-two {
+    grid-column:2/3;
+
+
+}
+
+.image-two {
+    grid-column:1/2;
+
 }
