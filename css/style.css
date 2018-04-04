@@ -98,6 +98,10 @@ section:target{
     height:20vh;
 }
 
+.portfolio .screenshots{
+    background-size:contain;
+    background-repeat:no-repeat;
+}
 
 .project-one {
     grid-column:1/2;
