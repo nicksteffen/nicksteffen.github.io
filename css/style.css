@@ -4,6 +4,7 @@
 body{
   text-align:center;
   position:relative;
+  overflow-x:hidden;
 }
 section:target{
   padding-top:40px;
