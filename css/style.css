@@ -104,25 +104,26 @@ section:target{
     background-repeat:no-repeat;
 }
 
-.project-one {
+.left {
     grid-column:1/2;
 
 }
 
 .image-one {
-    grid-column:2/3;
     background-image:url("https://nicksteffen.github.io/project screenshots/home-page-app.png");
 
 }
 
-.project-two {
+.right {
     grid-column:2/3;
 
 
 }
 
 .image-two {
-    grid-column:1/2;
     background-image:url("https://nicksteffen.github.io/project screenshots/calculator.png");
+}
 
+.image-three {
+    background-image:url("https://nicksteffen.github.io/project screenshots/clock.png");
 }
