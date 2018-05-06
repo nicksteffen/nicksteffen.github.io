@@ -125,7 +125,7 @@ section{
     width:100vw;
   }
 .nav-links ul li {
-  font-size:1em;
+  font-size:.5em;
 }
 .navbar-nav .nav-link{
   display:flex;
