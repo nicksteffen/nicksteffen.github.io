@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+body{
+  text-align:center;
+  position:relative;
+  overflow-x:hidden;
+}
+section:target{
+  padding-top:40px;
+}
+.sections {
+  display:flex;
+  flex-shrink:1;
+  height:100vh;
+  justify-content:center;
+  align-content:center;
+  overflow-y: hidden;
+  min-height:100%;
+}
+.navbar-nav{
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+}
+.navbar-nav .nav-link{
+  padding-right:.5rem;
+  padding-left:.5rem;
+}
+.social-links{
+  list-style-type:none;
+  justify-content:center;
+  display:flex;
+  padding:0px;
+}
+
+.social-links li{
+  padding:5px;
+}
+
+.thumbnail-container {
+  display:inline-block;
+  flex-direction:row;
+  white-space:nowrap;
+}
+.home-container {
+    background-color:rgba(21, 0, 255, 0.52);
+}
+
+@media screen and (min-width:480px) {
+.about-section {
+
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:100%;
+}
+}
+.about-section{
+    display: grid;
+    background-color:#D6B688;
+    background-size:cover;
+    background-image: url("https://nicksteffen.github.io/about-background.jpg");
+    background-size:cover;
+
+
+}
+
+.picture {
+    grid-column: 1/2;
+    background-image: url("https://nicksteffen.github.io/profile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:85%;
+
+}
+
+.about-text {
+    grid-column:2/3;
+    color: rgba(255,255,255, .8);
+    max-width:80%;
+    margin-left:15%;
+    margin-right:15%
+}
+
+.skills {
+    background-color:#7894cc;
+    color: rgba(255,255,255, .8);
+    flex-direction:column;
+    text-align:left
+}
+
+
+.portfolio {
+    height:180vh;
+    background-color: #324378;
+    color: rgba(255,255,255, .8);
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+}
+
+.contact {
+    background-color: #171f35;
+    color: rgba(255,255,255, .8);
+    height:20vh;
+}
+
+.portfolio .screenshots{
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+
+.left {
+    grid-column:1/2;
+
+}
+
+.image-one {
+    background-image:url("https://nicksteffen.github.io/project screenshots/home-page-app.png");
+
+}
+
+.right {
+    grid-column:2/3;
+
+
+}
+
+.image-two {
+    background-image:url("https://nicksteffen.github.io/project screenshots/calculator.png");
+}
+
+.image-three {
+    background-image:url("https://nicksteffen.github.io/project screenshots/clock.png");
+}
