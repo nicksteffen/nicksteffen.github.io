@@ -140,7 +140,7 @@ section{
   justify-content:center;
   align-content:center;
   overflow-y: hidden;
-    font-size:1em;
+  font-size:.5em;
 
 }
   .about-section {
