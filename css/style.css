@@ -97,7 +97,7 @@ section{
     height:20vh !important;
 }
 
-@media screen and (min-width:960px) {
+@media screen and (min-width:1080px) {
   .sections {
   display:flex;
   flex-shrink:1;
