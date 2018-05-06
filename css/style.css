@@ -11,8 +11,11 @@
   background:none;
   border:none;
   padding:5px;
+  height:
 
-
+}
+.nav-links ul li {
+  font-size:1.75em;
 }
 body{
   text-align:center;
@@ -121,7 +124,9 @@ section{
   .navbar-nav ul{
     width:100vw;
   }
-
+.nav-links ul li {
+  font-size:1em;
+}
 .navbar-nav .nav-link{
   display:flex;
   padding-right:.5rem !important;
