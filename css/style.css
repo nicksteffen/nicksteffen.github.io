@@ -49,6 +49,7 @@ section{
 
 .about-section{
     background-color:#D6B688;
+    background-color:(214,182,136,.03);
 }
 .picture {
     background-image: url("https://nicksteffen.github.io/profile.jpg");
